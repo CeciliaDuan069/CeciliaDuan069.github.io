@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #afc5d8;
 }
 
 header, footer {
@@ -14,11 +15,9 @@ header {
     /* padding: 100px; */
     min-height: 100vh;
     display: flex;
-    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+    background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
     background-size: cover;
     background-position: center center;
-
-
 }
 
 main {
@@ -32,6 +31,7 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
+  background-color: #afc5d8;
 }
 
 h1 {
@@ -48,8 +48,13 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #345b8b;
   padding: 10px 0px 10px 10px;
+}
+
+.project {
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);  
+  width: 100%;
 }
 
 
@@ -57,19 +62,6 @@ img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
-}
-
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  width: 100%;
-}
-
-.a {
-
-}
-
-.c {
-
 }
 
 .time {
@@ -101,30 +93,50 @@ img {
 .description {
   /* font-family: 'DM Sans', sans-serif; */
   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  color: #406c9c;
+  padding: 0 20px 20px 20px;
+  /* border-top: 1px solid #4a4a4a; */
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
 
 .container {
   min-width: 500px;
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #94abc4;
+  justify-content: space between;
+}
+
+.copyright {
+  margin: auto 0;
+}
+
+.icons {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.icons a {
+  margin: 0 8px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.icons a:hover {
+  color: rgb(255, 255, 255, 0.8);
 }
 
 .bio {
@@ -142,6 +154,6 @@ footer {
     font-size: 18px;
   }
   img {
-    height: 55vh;
+    height: 25vh;
   }
 }
